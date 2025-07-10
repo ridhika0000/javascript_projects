@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Register Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h3 class="title">Sliding Login & Registration Form</h3>
+    </header>
+
+    <div class="container">
+        <div class="slider"></div>
+        <div class="btn">
+            <button class="login">Login</button>
+            <button class="signup">Signup</button>
+        </div>
+        <div class="form-section">
+            <div class="login-box">
+                <input type="email" placeholder="youremail@gmail.com" class="email ele">
+                <input type="password" placeholder="password" class="password ele">
+                <button class="clkbtn">Login</button>
+            </div>
+
+            <div class="signup-box">
+                <input type="text" placeholder="enter your name" class="name ele">
+                <input type="email" placeholder="youremail@gmail.com" class="email ele">
+                <input type="password" placeholder="password" class="password ele">
+                <input type="password" placeholder="confirm password" class="password ele">
+                <button class="clkbtn">Signup</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let signup = document.querySelector(".signup");
+        let login = document.querySelector(".login");
+        let slider = document.querySelector(".slider");
+        let formSection = document.querySelector(".form-section");
+
+        signup.addEventListener('click', () => {
+            slider.classList.add("moveslider");
+            formSection.classList.add("form-section-move");
+        });
+
+        login.addEventListener('click', () => {
+            slider.classList.remove("moveslider");
+            formSection.classList.remove("form-section-move");
+        });
+    </script>
+</body>
+
+</html>
