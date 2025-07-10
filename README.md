@@ -40,6 +40,11 @@ A simple to-do list application that allows users to add, mark as complete, and 
 
 ---
 
+*Sliding Login & Registration Form*
+A responsive sliding login/registration form enhances user experience by providing a smooth transition between login and registration interfaces. Using HTML, you structure two forms within a container, CSS styles the layout and adds transitions, and JavaScript manages interactivity for switching forms seamlessly. The project involves setting up a folder with index.html, styles.css, and script.js, designing the forms with input fields and buttons, and applying sliding effects with CSS transitions. JavaScript handles click events to toggle between forms, ensuring dynamic interactions.
+
+For better usability, you can implement responsive design, form validation, and visual feedback for errors or successful submissions. 
+
 ## 📁 How to Use
 
 1. Clone this repository:
